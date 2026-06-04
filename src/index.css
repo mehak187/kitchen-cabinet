@@ -492,12 +492,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .callbar {
     display: flex; gap: 10px; position: fixed; left: 0; right: 0; bottom: 0; z-index: 80;
     padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
-    background: rgba(255,255,255,0.92); backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.94); backdrop-filter: blur(12px);
     border-top: 1px solid var(--line); box-shadow: 0 -8px 24px rgba(27,26,23,0.1);
+    transition: transform 0.35s cubic-bezier(.4,0,.2,1);
   }
+  .callbar.is-hidden { transform: translateY(130%); pointer-events: none; }
   .fab-whatsapp { display: none; }
-  body { padding-bottom: 74px; }
-  .footer__bar { padding-bottom: 6px; }
 }
 
 @media (max-width: 480px) {

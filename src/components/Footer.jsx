@@ -4,7 +4,7 @@ import { PhoneIcon } from './Icons.jsx'
 export default function Footer() {
   const year = new Date().getFullYear()
   return (
-    <footer className="footer">
+    <footer className="footer" id="site-footer">
       <div className="container footer__inner">
         <div className="footer__brand">
           <div className="brand">
