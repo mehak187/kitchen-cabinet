@@ -33,9 +33,13 @@ export const whatsappMessage = encodeURIComponent(
 // Gallery — completed kitchens & 3D custom designs.
 // Confirmed finished-kitchen photos are listed first so they lead the grid.
 export const gallery = [
+  // Newest finished kitchens (June 2026 batch) — lead the grid.
+  'k41', 'k42', 'k43', 'k46', 'k47', 'k49', 'k52', 'k40',
+  'k45', 'k48', 'k51', 'k53', 'k54', 'k44', 'k50',
+  // Earlier finished kitchens.
   'k28', 'k08', 'k35', 'k32', 'k31', 'k36', 'k18', 'k19',
   'k21', 'k22', 'k23', 'k24', 'k26', 'k29', 'k30', 'k33',
-  'k34', 'k38', 'k39', 'k16', 'k17', 'k20', 'k25', 'k27',
+  'k34', 'k38', 'k39', 'k17', 'k20', 'k25', 'k27',
   'k37', 'k12',
   // 3D design drawings (custom / تفصيل service)
   'k00', 'k01', 'k02', 'k03', 'k04', 'k05', 'k06', 'k07',
@@ -44,7 +48,11 @@ export const gallery = [
 
 export const heroImage = '/gallery/k28.jpg'
 
-export const videos = ['/video/walkthrough1.mp4', '/video/walkthrough2.mp4']
+export const videos = [
+  '/video/walkthrough3.mp4',
+  '/video/walkthrough1.mp4',
+  '/video/walkthrough2.mp4',
+]
 
 // Trust band — edit these numbers to match your real figures.
 export const stats = [

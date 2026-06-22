@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Remove-Item \"d:\\\\Other P\\\\kitchen\\\\public\\\\gallery\\\\k16.jpg\" -Force; \"deleted: $\\(\\(Test-Path 'd:\\\\Other P\\\\kitchen\\\\public\\\\gallery\\\\k16.jpg'\\) -eq $false\\)\")"
+    ]
+  }
+}
